@@ -1,0 +1,61 @@
+body {
+    font-size: 22px;
+    background-image: linear-gradient(to right top, rgb(76, 0, 76), purple);
+    font-family: 'Dancing Script', cursive;
+    color: aliceblue;
+}
+
+
+#start-btn {
+    width: 40%;
+}
+
+#camera {
+    width: 360px;
+    height: 250px;
+    border: 1px solid grey;
+}
+
+img {
+    width: 37%;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 0 6px 8px 0 rgba(2, 2, 2, 0.2);
+}
+
+.column {
+    display: inline;
+    padding: 10px;
+}
+
+img:hover {
+border-radius: 50px;}
+
+
+#logo_img {
+    width: 70px;
+    border-radius: 100px;
+}
+
+#textbox {
+    width: 300px;
+}
+
+.btn {
+    color: purple;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 35px;
+    padding: 5px;
+    text-shadow: 6px 5px 5px rgb(230, 220, 220);
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    color: purple;
+    text-align: center;
+}
